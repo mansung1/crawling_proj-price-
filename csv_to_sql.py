@@ -15,7 +15,7 @@ connection = pymysql.connect(
 )
 
 cursor = connection.cursor() # 커서 생성
-# print("MySQL 연결 성공!")
+# print("SQL 연결 성공")
 
 # 데이터 삽입 : 쿼리지정 후 for문으로 csv의 내용을 반복 삽입
 insert_query = """
